@@ -1,0 +1,23 @@
+{
+    "name": "@deephug/base64",
+    "version": "1.0.1",
+    "description": "base64 编码",
+    "main": "lib/index.js",
+    "module": "lib/index.mjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/deep-hug/deephug/tree/master/packages/base64",
+    "author": "deephug <18537052289@163.com>",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "base64",
+        "urlsafe"
+    ],
+    "license": "ISC"
+}

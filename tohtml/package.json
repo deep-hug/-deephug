@@ -1,0 +1,34 @@
+{
+    "name": "@deephug/tohtml",
+    "version": "1.0.3",
+    "description": "将 docx 文件快速转换成可维护性高的HTML网页",
+    "main": "lib/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/deep-hug/deephug/tree/master/packages/tohtml",
+    "keywords": [
+        "tohtml"
+    ],
+    "author": "deephug <18537052289@163.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/adm-zip": "^0.4.32",
+        "@types/lodash": "^4.14.149",
+        "@types/node": "^12.12.21"
+    },
+    "bin": {
+        "tohtml": "lib/cli.js"
+    },
+    "dependencies": {
+        "adm-zip": "^0.4.13",
+        "commander": "^4.0.1",
+        "lodash": "^4.17.15"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "lib"
+    ]
+}
